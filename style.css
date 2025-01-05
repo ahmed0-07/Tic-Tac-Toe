@@ -1,0 +1,32 @@
+body{
+    position: relative;
+}
+
+.container{
+    width: 600px;
+    height: 600px;
+    margin: auto;
+    text-align: center;
+    padding: 200px;
+}
+
+.button{
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+    width: 150px;
+    height: 150px;
+    margin: 1px 0;
+    font-size: 50px;
+    border: 2px solid orangered;
+    background-color: white;
+    transition-duration: 0.6s;
+}
+
+.button.taken{
+    pointer-events: none;
+}
+
+.button:hover{
+    background-color: #aa0404;
+}
